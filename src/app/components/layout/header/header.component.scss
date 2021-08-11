@@ -1,0 +1,85 @@
+.header{
+  padding: 35px 80px;
+  .container-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    .title-logo{
+      font-size: 24px;
+      line-height: 35px;
+      color: #FFF;
+      margin-right: 130px;
+      span{
+        color: #87888E;
+      }
+    }
+    .menu{
+      display: flex;
+      flex-direction: row;
+      margin-right: 200px;
+      .menu-item{
+        font-size: 18px;
+        line-height: 26px;
+        margin-right: 25px;
+        margin-left: 25px;
+        text-decoration: none;
+        transition: All 0.3s;
+        color: #FFF;
+        span{
+          display: none;
+        }
+        &:hover{
+
+          color: #63F3AB;
+          span{
+            display: initial;
+            color: #63F3AB;
+          }
+        }
+      }
+    }
+    .logo-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .logo-git{
+        display: flex;
+        align-items: center;
+        margin-right: 76px;
+        .logo-img{
+          width: 50px;
+          height: 50px;
+          margin-right: 15px;
+          background-image: url("../../../../assets/images/header/github.png");
+          background-size: cover;
+          background-position: 50% 50%;
+        }
+        .title{
+          font-size: 18px;
+          line-height: 26px;
+          color: #FFFFFF;
+        }
+      }
+      .contact{
+        background-color: #494B53;
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        .image-contact{
+          position: absolute;
+          width: 40px;
+          height: 40px;
+          background-image: url("../../../../assets/images/header/email.svg");
+          background-size: cover;
+          background-position: 50% 50%;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%,-50%);
+        }
+      }
+
+    }
+  }
+}

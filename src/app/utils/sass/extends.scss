@@ -1,0 +1,12 @@
+%main-title {
+    color:#BD9A08;
+    font-size: 30px;
+    line-height: 40px;
+    @include font-playfairdisplay-regular;
+}
+%main-text{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 19px;
+    @include font-roboto-regular;
+}

@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/scss/bootstrap";
+
+// Fonts
+@import 'app/utils/sass/_fonts';
+
+// Variables
+@import "app/utils/sass/_mixins";
+@import "app/utils/sass/_variables";
+@import "app/utils/sass/sizes";
+
+//Extends
+@import "app/utils/sass/extends";
+
+body,
+html {
+  //@include font-georgia-regular;
+  overflow-x: hidden;
+  background-color: #2D2E32;
+}
