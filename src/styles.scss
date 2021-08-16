@@ -14,7 +14,7 @@
 
 body,
 html {
-  //@include font-georgia-regular;
+  @include font-spacemono-regular();
   overflow-x: hidden;
   background-color: #2D2E32;
 }

@@ -23,61 +23,27 @@ $font-path: "/fonts/";
     }
 }
 
-@include registerFont('playfairdisplay-italic', 'playfairdisplay', 'Playfair', 'PlayfairDisplay-Italic', 400, italic);
-@include registerFont('playfairdisplay-regular', 'playfairdisplay', 'Playfair', 'PlayfairDisplay-Regular', 400);
 
-@mixin font-playfairdisplay-regular() {
-    @extend .playfairdisplay-regular;
+@include registerFont('spacemono-regular', 'spacemono', 'SpaceMono', 'SpaceMono-Regular', 400);
+@include registerFont('spacemono-italic', 'spacemono', 'SpaceMono', 'SpaceMono-Italic', 400, italic);
+@include registerFont('spacemono-bold', 'spacemono', 'SpaceMono', 'SpaceMono-Bold', 700);
+@include registerFont('spacemono-bolditalic', 'spacemono', 'SpaceMono', 'SpaceMono-Bolditalic', 700, italic);
+
+
+@mixin font-spacemono-regular() {
+    @extend .spacemono-regular;
+}
+@mixin font-spacemono-italic() {
+    @extend .spacemono-italic;
 }
 
-@mixin font-playfairdisplay-italic() {
-    @extend .playfairdisplay-italic;
+@mixin font-spacemono-bold() {
+    @extend .spacemono-bold;
 }
 
-@include registerFont('roboto-thin', 'roboto', 'Roboto', 'Roboto-Thin', 100);
-@include registerFont('roboto-thinitalic', 'roboto', 'Roboto', 'Roboto-ThinItalic', 100, italic);
-@include registerFont('roboto-light', 'roboto', 'Roboto', 'Roboto-Light', 300);
-@include registerFont('roboto-lightitalic', 'roboto', 'Roboto', 'Roboto-Lightitalic', 300, italic);
-@include registerFont('roboto-regular', 'roboto', 'Roboto', 'Roboto-Regular', 400);
-@include registerFont('roboto-medium', 'roboto', 'Roboto', 'Roboto-Medium', 500);
-@include registerFont('roboto-mediumitalic', 'roboto', 'Roboto', 'Roboto-Mediumitalic', 500, italic);
-@include registerFont('roboto-bold', 'roboto', 'Roboto', 'Roboto-Bold', 700);
-@include registerFont('roboto-bolditalic', 'roboto', 'Roboto', 'Roboto-Bolditalic', 700, italic);
-@include registerFont('roboto-black', 'roboto', 'Roboto', 'Roboto-Black', 100);
-@include registerFont('roboto-blackitalic', 'roboto', 'Roboto', 'Roboto-Blackitalic', 100, italic);
+@mixin font-spacemono-bolditalic() {
+    @extend .spacemono-bolditalic;
+}
 
-@mixin font-roboto-thin() {
-    @extend .roboto-thin;
-}
-@mixin font-roboto-thinitalic() {
-    @extend .roboto-thinitalic;
-}
-@mixin font-roboto-light() {
-    @extend .roboto-light;
-}
-@mixin font-roboto-lightitalic() {
-    @extend .roboto-lightitalic;
-}
-@mixin font-roboto-regular() {
-    @extend .roboto-regular;
-}
-@mixin font-roboto-medium() {
-    @extend .roboto-medium;
-}
-@mixin font-roboto-mediumitalic() {
-    @extend .roboto-mediumitalic;
-}
-@mixin font-roboto-bold() {
-    @extend .roboto-bold;
-}
-@mixin font-roboto-bolditalic() {
-    @extend .roboto-bolditalic;
-}
-@mixin font-roboto-black() {
-    @extend .roboto-black;
-}
-@mixin font-roboto-blackitalic() {
-    @extend .roboto-blackitalic;
-}
 
 

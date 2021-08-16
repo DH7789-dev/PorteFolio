@@ -36,11 +36,59 @@
                     </div>
             </div>
             <div class="rotate">
-                    <div class="skill fourth">
-                        <img src="../../../assets/images/home/python.png" alt="python-image">
-                     </div>
+                <div class="skill fourth">
+                  <img src="../../../assets/images/home/python.png" alt="python-image">
+                </div>
             </div>
         </div>
-
+    </div>
+</div>
+<div class="section-explain">
+    <div class="container-explain">
+        <div class="explain-left">
+            <div class="content-explain" (mouseover)="changeText('first')">
+                <div class="title-explain">Front-End</div>
+                <div class="paragraph-explain">I develop front-end coding super smooth</div>
+                <div class="number-project">20 PROJECTS</div>
+            </div>
+            <div class="content-explain" (mouseover)="changeText('second')">
+                <div class="title-explain">Back-End</div>
+                <div class="paragraph-explain">I develop back-end coding super smooth</div>
+                <div class="number-project">20 PROJECTS</div>
+            </div>
+            <div class="content-explain" (mouseover)="changeText('third')">
+                <div class="title-explain">Design</div>
+                <div class="paragraph-explain">I develop front-end coding super smooth</div>
+                <div class="number-project">20 PROJECTS</div>
+            </div>
+        </div>
+        <div class="explain-right">
+            <div class="container-explain-right">
+                <div class="title-explain-right">Introduce</div>
+                <div class="title-introduce">Hello ! I’m David-Henri Arnaud</div>
+                <div  *ngIf="textNone == 'first'"class="subtitle-introduce">Every great developement front-end  begin with an better story</div>
+                <div  *ngIf="textNone == 'second'"class="subtitle-introduce">Every great developement back-end begin with an better story</div>
+                <div  *ngIf="textNone == 'third'"class="subtitle-introduce">Every great design begin with an better story</div>
+                <div *ngIf="textNone == 'first'" class="paragraph-introduce first-paragraph">Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,v,Je recaonte ma vie,v,v,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie</div>
+                <div *ngIf="textNone == 'second'" class="paragraph-introduce second-paragraph">Je recaonte pas ma vie,Je recaonte ma vie,Je recaonte ma vie,v,Je recaonte ma vie,v,v,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie</div>
+                <div *ngIf="textNone == 'third'" class="paragraph-introduce second-paragraph">Je recaonte plus ma vie,Je recaonte ma vie,Je recaonte ma vie,v,Je recaonte ma vie,v,v,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section-company">
+    <div class="container-company">
+        <a href="" class="company-image">
+            <img src="../../../assets/images/home/thales.svg" alt="logo thales">
+        </a>
+        <a href="" class="company-image">
+            <img src="../../../assets/images/home/webind.svg" alt="logo webind">
+        </a>
+        <a href="" class="company-image">
+            <img src="../../../assets/images/home/edf.svg" alt="logo edf">
+        </a>
+        <a href="" class="company-image">
+            <img src="../../../assets/images/home/confo.svg" alt="logo conforama">
+        </a>
     </div>
 </div>

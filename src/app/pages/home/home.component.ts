@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  textNone = 'first';
+
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+
+  changeText(nameChange: string): void{
+    this.textNone = nameChange;
+  }
+
 
 }
