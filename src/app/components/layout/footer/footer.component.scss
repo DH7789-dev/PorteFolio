@@ -1,0 +1,106 @@
+.footer{
+  background-color: #25262A;
+  padding: 89px 90px 20px;
+  .container-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    align-items: center;
+    .content-left{
+      display: flex;
+      flex-direction: column;
+      .title-footer-left{
+        font-size: 48px;
+        line-height: 71px;
+        color: #FFFFFF;
+        max-width: 600px;
+        margin-bottom: 77px;
+      }
+      .subtitle-footer-left{
+        font-size: 48px;
+        line-height: 71px;
+        color: #FFFFFF;
+        max-width: 540px;
+        margin-bottom: 64px;
+        span{
+          color: #63F3AB;
+        }
+      }
+    }
+    .content-right{
+      display: flex;
+      flex-direction: column;
+      .title-footer-right{
+        font-size: 14px;
+        line-height: 20px;
+        color: #87888E;
+        margin-bottom: 19px;
+      }
+      .subtitle-footer-right{
+        font-size: 18px;
+        line-height: 26px;
+        color: #87888E;
+        margin-bottom: 19px;
+      }
+      .email{
+        font-size: 24px;
+        line-height: 35px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+      }
+      .nav-bar{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        .item-nav{
+          font-size: 17px;
+          line-height: 19px;
+          color: #FFFFFF;
+          text-align: center;
+          position: relative;
+          left: -100px;
+          margin-bottom: 20px;
+          cursor: pointer;
+          span{
+            display: none;
+          }
+          &:hover{
+            color: #63F3AB;
+            span{
+              display: initial;
+              color: #63F3AB;
+            }
+          }
+        }
+
+      }
+    }
+  }
+  .content-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .title-bottom{
+      font-size: 24px;
+      line-height: 35px;
+      color: #FFFFFF;
+      margin-right: 57px;
+      span{
+        color: #87888E;
+      }
+    }
+    .subtitle-bottom{
+      font-size: 14px;
+      line-height: 20px;
+      color: #87888E;
+      margin-right: 600px;
+    }
+    .logo-bottom{
+      margin-right: 45px;
+      img{
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}

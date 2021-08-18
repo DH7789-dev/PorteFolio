@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   textNone = 'first';
-
+  avis = 'first';
 
   constructor() { }
 
@@ -20,5 +20,9 @@ export class HomeComponent implements OnInit {
     this.textNone = nameChange;
   }
 
+
+  ChangeOpinion(avisChange: string): void{
+    this.avis = avisChange;
+  }
 
 }

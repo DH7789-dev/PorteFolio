@@ -54,12 +54,12 @@
             <div class="content-explain" (mouseover)="changeText('second')">
                 <div class="title-explain">Back-End</div>
                 <div class="paragraph-explain">I develop back-end coding super smooth</div>
-                <div class="number-project">20 PROJECTS</div>
+                <div class="number-project">15 PROJECTS</div>
             </div>
             <div class="content-explain" (mouseover)="changeText('third')">
                 <div class="title-explain">Design</div>
                 <div class="paragraph-explain">I develop front-end coding super smooth</div>
-                <div class="number-project">20 PROJECTS</div>
+                <div class="number-project">4 PROJECTS</div>
             </div>
         </div>
         <div class="explain-right">
@@ -78,17 +78,146 @@
 </div>
 <div class="section-company">
     <div class="container-company">
-        <a href="" class="company-image">
+        <a href="https://www.thalesgroup.com/fr" class="company-image">
             <img src="../../../assets/images/home/thales.svg" alt="logo thales">
         </a>
-        <a href="" class="company-image">
+        <a href="https://webind.co/" class="company-image">
             <img src="../../../assets/images/home/webind.svg" alt="logo webind">
         </a>
-        <a href="" class="company-image">
+        <a href="https://www.edf.fr/" class="company-image">
             <img src="../../../assets/images/home/edf.svg" alt="logo edf">
         </a>
-        <a href="" class="company-image">
+        <a href="https://www.conforama.fr/" class="company-image">
             <img src="../../../assets/images/home/confo.svg" alt="logo conforama">
         </a>
     </div>
+</div>
+<div class="section-project">
+  <div class="title-project">
+    <div class="title">Latest Works</div>
+    <div class="subtitle">Perfect Solutions for digital experience</div>
+  </div>
+  <div class="container-project project1">
+    <div class="content-project" style="background-image: url('../../../assets/images/home/project2.png')">
+      <div class="content-techno-project">
+        <div class="content-header">
+          <div class="title-techno-project">Project 2</div>
+          <div class="container-techno">
+            <div class="title-techno techno3"><div class="techno">Laravel</div> </div>
+            <div class="title-techno techno4"><div class="techno">PHP</div></div>
+            <div class="title-techno techno2"><div class="techno">JS</div></div>
+          </div>
+        </div>
+        <div class="paragraph-project">Explication du projetExplication du projetExplication du projetExplication du projetExplication du </div>
+      </div>
+    </div>
+    <div class="content-project project2" style="background-image: url('../../../assets/images/home/project1.png')">
+      <div class="content-techno-project">
+        <div class="content-header">
+          <div class="title-techno-project">Project 1</div>
+          <div class="container-techno">
+            <div class="title-techno techno1"><div class="techno">Angular</div></div>
+            <div class="title-techno techno2"><div class="techno">Node JS</div></div>
+            <div class="title-techno techno5"><div class="techno">TS</div></div>
+          </div>
+        </div>
+        <div class="paragraph-project">Explication du projetExplication du projetExplication du projetExplication du projetExplication du </div>
+      </div>
+    </div>
+    <div class="all-project">
+      <div class="title-all">ALL PROJECTS</div>
+      <div class="subtitle-all">*Some projects not allow publish, if you want to see more,<span style="color:#63F3AB;">contact</span></div>
+    </div>
+    <div class="content-project project3" style="background-image: url('../../../assets/images/home/project3.png')">
+      <div class="content-techno-project">
+        <div class="content-header">
+          <div class="title-techno-project">Project 3</div>
+          <div class="container-techno">
+            <div class="title-techno techno3"><div class="techno">Laravel</div> </div>
+            <div class="title-techno techno4"><div class="techno">PHP</div></div>
+            <div class="title-techno techno2"><div class="techno">JS</div></div>
+          </div>
+        </div>
+        <div class="paragraph-project">Explication du projetExplication du projetExplication du projetExplication du projetExplication du </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section-feedback">
+    <div class="content-title-feedback">
+      <div class="title-feedback">FeedBack</div>
+      <div class="subtitle-feedback">what my clients about me</div>
+    </div>
+    <div class="container-feedback">
+      <div class="about-me">
+         <div class="content-icon">
+           <div class="stars">
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+           </div>
+           <div class="icon"></div>
+         </div>
+        <div *ngIf="avis=='first'" class="about">Avis 1 clients Avis clients Avis clients Avis clients Avis clients Avis clients v Avis clients Avis clients Avis clientsAvis clients Avis clients v Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis 1 clients Avis clients Avis clients Avis clients Avis clients Avis clients v Avis clients Avis clients Avis clientsAvis clients Avis clients v Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients  </div>
+        <div *ngIf="avis=='second'" class="about">Avis 2 clients Avis clients Avis clients Avis clients Avis clients Avis clients v Avis clients Avis clients Avis clientsAvis clients Avis clients v Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients </div>
+        <div *ngIf="avis=='third'" class="about">Avis 3 clients Avis clients Avis clients Avis clients Avis clients Avis clients v Avis clients Avis clients Avis clientsAvis clients Avis clients v Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients Avis clients </div>
+      </div>
+      <div class="profil-container-about">
+        <div class="profil-about" (click)="ChangeOpinion('first')">
+          <div class="content-profil">
+            <div class="image-profil">
+              <img  src="../../../assets/images/home/me.png" alt="">
+            </div>
+            <div class="more-profil">
+              <div class="name-client">David</div>
+              <div class="activity-client">Co-foundateur <span style="color: #63F3AB">oversea</span></div>
+            </div>
+          </div>
+          <div class="bar" [style.background-color]="avis == 'first' ? '#63F3AB' : '#87888E' " (click)="ChangeOpinion('first')"></div>
+        </div>
+        <div class="profil-about" (click)="ChangeOpinion('second')">
+          <div class="content-profil">
+            <div class="image-profil">
+              <img src="../../../assets/images/home/me.png" alt="">
+            </div>
+            <div class="more-profil">
+              <div class="name-client">David</div>
+              <div class="activity-client">Co-foundateur <span style="color: #63F3AB">oversea</span></div>
+            </div>
+          </div>
+          <div class="bar" [style.background-color]="avis == 'second' ? '#63F3AB' : '#87888E' " (click)="ChangeOpinion('second')"></div>
+        </div>
+        <div class="profil-about" style="margin-right: 0px" (click)="ChangeOpinion('third')">
+          <div class="content-profil">
+            <div class="image-profil">
+              <img src="../../../assets/images/home/me.png" alt="">
+            </div>
+            <div class="more-profil">
+              <div class="name-client">David</div>
+              <div class="activity-client">Co-foundateur <span style="color: #63F3AB">oversea</span></div>
+            </div>
+          </div>
+          <div class="bar" [style.background-color]="avis == 'third' ? '#63F3AB' : '#87888E' " ></div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="section-university">
+  <div class="title-university">University</div>
+  <div class="container-university">
+    <div class="content-university">
+      <div class="date-university">2021-2023</div>
+      <div class="title-certificate">Master II Achitecte logiciels <span> ESGI - Paris Nation</span></div>
+    </div>
+    <div class="content-university">
+      <div class="date-university" style="margin-right: 195px;">2021</div>
+      <div class="title-certificate">Bachelor Achitecte logiciels<span> ESGI - Paris Nation</span></div>
+    </div>
+    <div class="content-university">
+      <div class="date-university" style="margin-right: 195px;" >2020</div>
+      <div class="title-certificate">BTS SIO<span> CFA campus Montsouris Paris</span></div>
+    </div>
+  </div>
 </div>
