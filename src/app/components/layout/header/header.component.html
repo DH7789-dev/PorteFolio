@@ -3,17 +3,17 @@
         <div class="title-logo">David.H <span>Arnaud</span></div>
         <div class="header-content">
           <nav class="menu exp">
-            <a href="" class="menu-item"><span style="margin-right: 5px;"> <  </span> Services <span style="margin-left: 5px;"> > </span></a>
-            <a href="" class="menu-item"><span style="margin-right: 5px;"> < </span> Works <span style="margin-left: 5px;"> > </span></a>
-            <a href="" class="menu-item"><span style="margin-right: 5px;"> < </span> Notes <span style="margin-left: 5px;"> > </span></a>
-            <a href="" class="menu-item"><span style="margin-right: 5px;"> < </span> Contact <span style="margin-left: 5px;"> > </span></a>
+            <div  (click)="scroll('section-explain')" class="menu-item"><span style="margin-right: 5px;"> <  </span> Services <span style="margin-left: 5px;"> > </span></div>
+            <div  (click)="scroll('section-project')" class="menu-item"><span style="margin-right: 5px;"> < </span> Works <span style="margin-left: 5px;"> > </span></div>
+            <div  (click)="scroll('section-feedback')" class="menu-item"><span style="margin-right: 5px;"> < </span> Notes <span style="margin-left: 5px;"> > </span></div>
+            <div  (click)="scroll('footer')" class="menu-item"><span style="margin-right: 5px;"> < </span> Contact <span style="margin-left: 5px;"> > </span></div>
           </nav>
           <div class="logo-container">
             <a href="https://github.com/DH7789-dev" class="logo-git">
               <div class="logo-img"></div>
               <div class="title">GitHub</div>
             </a>
-            <div class="contact">
+            <div  class="contact">
               <div class="image-contact"></div>
             </div>
           </div>
