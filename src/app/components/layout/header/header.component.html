@@ -6,14 +6,13 @@
             <div  (click)="scroll('section-explain')" class="menu-item"><span style="margin-right: 5px;"> <  </span> Services <span style="margin-left: 5px;"> > </span></div>
             <div  (click)="scroll('section-project')" class="menu-item"><span style="margin-right: 5px;"> < </span> Works <span style="margin-left: 5px;"> > </span></div>
             <div  (click)="scroll('section-feedback')" class="menu-item"><span style="margin-right: 5px;"> < </span> Notes <span style="margin-left: 5px;"> > </span></div>
-            <div  (click)="scroll('footer')" class="menu-item"><span style="margin-right: 5px;"> < </span> Contact <span style="margin-left: 5px;"> > </span></div>
           </nav>
           <div class="logo-container">
             <a href="https://github.com/DH7789-dev" class="logo-git">
               <div class="logo-img"></div>
               <div class="title">GitHub</div>
             </a>
-            <div  class="contact">
+            <div style="cursor:pointer;" class="contact" (click)="scroll('footer')">
               <div class="image-contact"></div>
             </div>
           </div>

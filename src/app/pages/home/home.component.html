@@ -1,10 +1,11 @@
+
 <div class="overlay">
     <div class="overlay-left">
         <div class="content-top">
             <div class="title-job">Full Stack Developer</div>
             <div class="subtitle-job">Talk is cheap .<br>Show me the code</div>
             <div class="paragraph-job">I design and code beautifully simple things, and I love  what I do.</div>
-            <a class="button-chat">LET’S CHAT !</a>
+            <a class="button-chat" href="https://www.linkedin.com/in/david-henri-arnaud/">LET’S CHAT !</a>
         </div>
         <div class="content-bottom">
             <div class="content">
@@ -21,7 +22,7 @@
         <div class="scene">
           <div class="sphere">
             <div class="hemisphere">
-               <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/discord.png" alt=""></div>
+               <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/intil.png" alt=""></div>
                <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/git.png" alt=""></div>
                <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/gitk.png" alt=""></div>
                <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/html.png" alt=""></div>
@@ -37,9 +38,9 @@
               <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/docker.png" alt=""></div>
               <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/css.png" alt=""></div>
               <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/figma.png" alt=""></div>
-              <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/react.png" alt=""></div>
+              <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/spring.png" alt=""></div>
               <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/angular.png" alt=""></div>
-              <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/intil.png" alt=""></div>
+              <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/sass.png" alt=""></div>
               <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/Laravel.png" alt=""></div>
               <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/java.png" alt=""></div>
               <div class="face"><img style="width:200px;height: 200px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);" src="../../../assets/images/home/phps.png" alt=""></div>
@@ -48,6 +49,9 @@
     </div>
   </div>
 </div>
+<button (click)="scroll('header')" style="position: fixed; bottom:100px; right:20px; background: #63F3AB" mat-fab color="primary" aria-label="Example icon button with a delete icon">
+  <mat-icon style="color: #2D2E32;" aria-hidden="false" aria-label="Example home icon">keyboard_arrow_up</mat-icon>
+</button>
 <div  class="section-explain">
     <div class="container-explain">
         <div class="explain-left">
@@ -74,9 +78,9 @@
                 <div  *ngIf="textNone == 'first'"class="subtitle-introduce">Every great developement front-end  begin with an better story</div>
                 <div  *ngIf="textNone == 'second'"class="subtitle-introduce">Every great developement back-end begin with an better story</div>
                 <div  *ngIf="textNone == 'third'"class="subtitle-introduce">Every great design begin with an better story</div>
-                <div *ngIf="textNone == 'first'" class="paragraph-introduce first-paragraph">Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,v,Je recaonte ma vie,v,v,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie</div>
-                <div *ngIf="textNone == 'second'" class="paragraph-introduce second-paragraph">Je recaonte pas ma vie,Je recaonte ma vie,Je recaonte ma vie,v,Je recaonte ma vie,v,v,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie</div>
-                <div *ngIf="textNone == 'third'" class="paragraph-introduce second-paragraph">Je recaonte plus ma vie,Je recaonte ma vie,Je recaonte ma vie,v,Je recaonte ma vie,v,v,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie,Je recaonte ma vie</div>
+                <div *ngIf="textNone == 'first'" class="paragraph-introduce first-paragraph">I started development with the integration of model which quickly allowed me to have a fairly high front-end experience and a mastery of html / css languages. With the different missions carried out, I was led to use js frameworks like react and angular which gives a completely new front-end perspective but just as interesting as developing natively.</div>
+                <div *ngIf="textNone == 'second'" class="paragraph-introduce second-paragraph">I started back-end development not long after my first assignments because companies are mainly looking for full stack developers, which led me to discover languages such as javascript / typescript with nodejs, then java to develop office software and spring boot to make restfull APIs to boost the different models that I make for my customers, which has led me to offer better quality back-end services according to customer needs</div>
+                <div *ngIf="textNone == 'third'" class="paragraph-introduce second-paragraph">To add value to the client and avoid the costs of a UX / UI designer, I started offering my own model to the client according to his needs and desires but also according to his core business which was important for a realization. complete and efficient. I quickly realized that the usefulness of the agile method was important to realize these models but also at the level of the development which proves to be more and more appreciated by my customers in the realization of their need because better understood thanks to a specification. flexible fillers.</div>
             </div>
         </div>
     </div>
@@ -114,7 +118,7 @@
             <div class="title-techno techno5"><div class="techno">TS</div></div>
           </div>
         </div>
-        <div class="paragraph-project">Explication du projetExplication du projetExplication du projetExplication du projetExplication du </div>
+        <div class="paragraph-project">Step By Car was a mission to create a free trip booking site managed by an association that wishes to remain anonymous.</div>
       </div>
     </div>
     <div class="content-project project1" style="background-image: url('../../../assets/images/home/project2.png')">
@@ -127,7 +131,7 @@
             <div class="title-techno techno2"><div class="techno">JS</div></div>
           </div>
         </div>
-        <div class="paragraph-project">Explication du projetExplication du projetExplication du projetExplication du projetExplication du </div>
+        <div class="paragraph-project">LuxuryPronos was a mission to create an online prognostic site with a back user managing all prognostics. </div>
       </div>
     </div>
     <div class="content-project project2 desktop" style="background-image: url('../../../assets/images/home/project1.png')">
@@ -140,7 +144,7 @@
             <div class="title-techno techno5"><div class="techno">TS</div></div>
           </div>
         </div>
-        <div class="paragraph-project">Explication du projetExplication du projetExplication du projetExplication du projetExplication du </div>
+        <div class="paragraph-project">Step By Car was a mission to create a free trip booking site managed by an association that wishes to remain anonymous. </div>
       </div>
     </div>
     <div class="all-project desktop">
@@ -157,7 +161,7 @@
             <div class="title-techno techno2"><div class="techno">JS</div></div>
           </div>
         </div>
-        <div class="paragraph-project">Explication du projetExplication du projetExplication du projetExplication du projetExplication du </div>
+        <div class="paragraph-project">Jocelyne Futou Hang was a mission for a massage company that wanted to have more visibility and accessibility for its customers.</div>
       </div>
     </div>
     <div class="all-project mobile">
