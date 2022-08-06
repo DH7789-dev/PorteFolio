@@ -1,10 +1,8 @@
-ARG environment=prod
 FROM node:16.15.0 as node
-ARG environment
 WORKDIR /app
 COPY . .
 RUN npm install --legacy-peer-deps
-RUN npm run build:${environment}
+RUN npm run build
 
 FROM nginx:alpine
 COPY ./nginx/nginx.conf /etc/nginx/conf.d/default.conf
