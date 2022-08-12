@@ -459,7 +459,6 @@
       flex-direction: column;
     }
     .top{
-      margin-top: 40px;
       @include mobile{
         margin-top: 0;
       }
@@ -468,10 +467,8 @@
       transform: scale(1);
       transition: all .3s ease-in-out;
       width: 280px;
-      height: 113px;
       @include small-device{
         width: 180px;
-        height: 65px;
       }
       @include big-device{
         margin-right: 80px;
