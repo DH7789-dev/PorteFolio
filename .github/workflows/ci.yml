@@ -1,10 +1,10 @@
-name: Node.js CI
+name: CI Portefolio
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   #build:voir probleme build nathan f
