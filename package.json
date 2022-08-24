@@ -34,7 +34,7 @@
     "@types/greensock": "^1.15.32",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
-    "codelyzer": "^6.0.0",
+    "codelyzer": "^0.0.28",
     "protractor": "~7.0.0",
     "sass": "^1.40.1",
     "sass-loader": "^12.1.0",
